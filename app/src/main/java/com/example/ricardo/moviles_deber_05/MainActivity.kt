@@ -54,11 +54,11 @@ class CrearPersonas(){
         var persona: ArrayList<Persona> = ArrayList()
 
         init {
-            persona.add(Persona("1715925739", "marcelo", "Nieto", "algo", Date(), true))
-            persona.add(Persona("1712781381", "gabriel", "Sanchez", "algo2", Date(), false))
-            persona.add(Persona("1721739189", "juan", "Arcentales", "algo3", Date(), false))
-            persona.add(Persona("1799903002", "david", "Acosta", "algo4", Date(), true))
-            persona.add(Persona("1793227133", "daniela", "Paredes", "algo5", Date(), true))
+            persona.add(Persona("1722730650", "Ricardo", "Ortiz", "Estudiante", Date(), true))
+            persona.add(Persona("1745234234", "Pepe", "Ganga", "Vendedor", Date(), false))
+            persona.add(Persona("1725468422", "Benito", "Camelas", "Profesor", Date(), false))
+            persona.add(Persona("1745218799", "Pedro", "Picapiedra", "Cavernicola", Date(), true))
+            persona.add(Persona("1746546546", "Pablo", "Marmol", "Otro cavernicola", Date(), true))
         }
     }
 }
