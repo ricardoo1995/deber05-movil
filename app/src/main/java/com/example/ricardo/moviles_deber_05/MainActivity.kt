@@ -1,4 +1,4 @@
-package com.example.marcelo.moviles_deber_5
+package com.example.ricardo.moviles_deber_05
 
 import android.content.Intent
 import android.graphics.Color
@@ -16,8 +16,8 @@ import android.widget.Button
 import android.widget.RelativeLayout
 import android.widget.TextView
 import android.widget.Toast
+import com.example.ricardo.moviles_deber_5.R
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.lista_fila_usuario.*
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
@@ -54,11 +54,11 @@ class CrearPersonas(){
         var persona: ArrayList<Persona> = ArrayList()
 
         init {
-            persona.add(Persona("1715925739","marcelo","Nieto","algo", Date(),true))
-            persona.add(Persona("1712781381","gabriel","Sanchez","algo2", Date(),false))
-            persona.add(Persona("1721739189","juan","Arcentales","algo3", Date(),false))
-            persona.add(Persona("1799903002","david","Acosta","algo4", Date(),true))
-            persona.add(Persona("1793227133","daniela","Paredes","algo5", Date(),true))
+            persona.add(Persona("1715925739", "marcelo", "Nieto", "algo", Date(), true))
+            persona.add(Persona("1712781381", "gabriel", "Sanchez", "algo2", Date(), false))
+            persona.add(Persona("1721739189", "juan", "Arcentales", "algo3", Date(), false))
+            persona.add(Persona("1799903002", "david", "Acosta", "algo4", Date(), true))
+            persona.add(Persona("1793227133", "daniela", "Paredes", "algo5", Date(), true))
         }
     }
 }

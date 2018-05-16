@@ -1,4 +1,4 @@
-package com.example.marcelo.moviles_deber_5
+package com.example.ricardo.moviles_deber_05
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

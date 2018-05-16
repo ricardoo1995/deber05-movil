@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.example.marcelo.moviles_deber_5"
+        applicationId 'com.example.ricardo.moviles_deber_05'
         minSdkVersion 15
         targetSdkVersion 27
         versionCode 1
@@ -19,6 +19,8 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    productFlavors {
     }
 }
 

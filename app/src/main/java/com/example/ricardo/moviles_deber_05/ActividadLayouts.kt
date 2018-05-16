@@ -1,7 +1,8 @@
-package com.example.marcelo.moviles_deber_5
+package com.example.ricardo.moviles_deber_05
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.ricardo.moviles_deber_5.R
 import kotlinx.android.synthetic.main.activity_actividad_layouts.*
 
 class ActividadLayouts : AppCompatActivity() {
